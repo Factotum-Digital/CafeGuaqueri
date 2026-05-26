@@ -1,0 +1,6 @@
+{
+  "name": "Guaiquerí Café",
+  "description": "Artisanal Venezuelan Heritage Roasters - Single-Origin Specialty Coffee from Sucre and Monagas highlands, certified on-chain with intelligent brewing guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

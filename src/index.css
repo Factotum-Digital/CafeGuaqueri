@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-surface-bright: #F9F7F2;
+  --color-brand-cream: #F9F7F2;
+  --color-brand-dark: #1C1C1C;
+  --color-brand-gold: #8B4513;
+  --color-brand-gold-light: #C49A70;
+  --color-brand-gray: #4A4643;
+  --color-brand-outline: rgba(28, 28, 28, 0.15);
+  --color-brand-surface-container: #EAE6DC;
+  --color-brand-surface-highest: #E8E4DA;
+  --color-brand-surface-card: #F2EEE5;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --transition-slow: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-surface-bright);
+    color: var(--color-brand-dark);
+    font-family: var(--font-sans);
+  }
+}
+
+.subtle-grid-bg {
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, rgba(28, 28, 28, 0.05) 1px, transparent 1px);
+}
+
+.parallax-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.glass-card {
+  backdrop-filter: blur(12px);
+  background-color: rgba(249, 247, 242, 0.82);
+}
+
+.hover-letter-spacing {
+  transition: letter-spacing 0.3s ease, background-color 0.3s ease;
+}
+
+.hover-letter-spacing:hover {
+  letter-spacing: 0.15em;
+}
+
