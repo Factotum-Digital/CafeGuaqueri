@@ -222,20 +222,20 @@ export default function App() {
                 Nuestra Tradición
               </span>
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-brand-dark leading-tight whitespace-normal">
-                Born in the<br />Oriente Venezolano
+                Nacido en el<br />Oriente Venezolano
               </h2>
               <p className="font-sans text-base text-brand-gray leading-relaxed">
-                GUAIQUERÍ was founded to honor the fierce, untamed spirit of the indigenous Guaquerí warriors of eastern Venezuela and the rich volcanic mountain soil of our highlands.
+                GUAIQUERÍ fue fundada para honrar el espíritu indomable y feroz de los guerreros indígenas Guaiqueríes del oriente venezolano y las ricas tierras de las montañas volcánicas de nuestras tierras altas.
               </p>
               <p className="font-sans text-xs text-brand-gray/80 leading-relaxed">
-                Our artisanal journey began in the mist-covered peaks of Sucre and the lush lime soils of Caripe, Monagas, where the Caribbean breeze sweeps across the Andean foothills. We don't just roast and distribute coffee; we compile a legacy, certifying that every individual sip carries the sovereign identity, aroma, and pride of its true origin.
+                Nuestro viaje artesanal comenzó en las cumbres cubiertas de neblina de Sucre y los exuberantes suelos calizos de Caripe, Monagas, donde la brisa del Caribe recorre las faldas de nuestras montañas. No solo tostamos y distribuimos café; cosechamos y protegemos un legado, garantizando que cada sorbo conserve la identidad soberana, el aroma y el orgullo de su origen real.
               </p>
               
               <button 
                 onClick={() => setIsManifestoOpen(true)}
                 className="font-sans text-xs font-bold text-brand-dark tracking-widest uppercase border-b-2 border-brand-dark pb-1 hover:text-brand-gold hover:border-brand-gold transition-colors duration-200 cursor-pointer inline-flex items-center gap-1.5"
               >
-                Read the Manifesto
+                Leer el Manifiesto
                 <ArrowRight className="h-3 w-3" />
               </button>
             </div>
@@ -252,7 +252,7 @@ export default function App() {
               GUAIQUERÍ CAFÉ
             </div>
             <p className="font-sans text-xs text-brand-gray max-w-sm leading-relaxed">
-              The pinnacle of Venezuelan specialty coffee. Direct from the mist-covered mountains to your artisanal cup, verified on-chain, and roasted with ancestral heritage.
+              La cúspide del café de especialidad venezolano. Directo de nuestras montañas cubiertas de neblina a tu taza artesanal, verificado en cadena (on-chain) y tostado con herencia ancestral.
             </p>
             <div className="flex gap-4 pt-4">
               <a href="#" className="p-2 border border-brand-outline/20 hover:border-brand-gold text-brand-gray hover:text-brand-gold bg-brand-cream transition-colors rounded-sm" title="Website Node">
@@ -261,7 +261,7 @@ export default function App() {
               <a href="#" className="p-2 border border-brand-outline/20 hover:border-brand-gold text-brand-gray hover:text-brand-gold bg-brand-cream transition-colors rounded-sm" title="Compartir Nodo">
                 <Share2 className="h-4 w-4" />
               </a>
-              <a href="mailto:Wilfredy7@gmail.com" className="p-2 border border-brand-outline/20 hover:border-brand-gold text-brand-gray hover:text-brand-gold bg-brand-cream transition-colors rounded-sm" title="Contact Us">
+              <a href="mailto:Wilfredy7@gmail.com" className="p-2 border border-brand-outline/20 hover:border-brand-gold text-brand-gray hover:text-brand-gold bg-brand-cream transition-colors rounded-sm" title="Contáctanos">
                 <Mail className="h-4 w-4" />
               </a>
             </div>
@@ -269,7 +269,7 @@ export default function App() {
 
           <div className="space-y-4">
             <h4 className="font-sans text-xs uppercase tracking-widest font-bold text-brand-dark">
-              Information
+              Información
             </h4>
             <ul className="space-y-2.5 text-xs text-brand-gray font-sans">
               <li>
@@ -284,7 +284,7 @@ export default function App() {
               <li className="pt-2">
                 <a href="#club" className="font-bold text-brand-dark hover:text-brand-gold transition-colors flex items-center gap-1.5">
                   <ShieldCheck className="h-3.5 w-3.5 text-brand-gold" />
-                  Blockchain Verification Portal
+                  Portal de Verificación en Blockchain
                 </a>
               </li>
             </ul>
@@ -292,15 +292,15 @@ export default function App() {
 
           <div className="space-y-4">
             <h4 className="font-sans text-xs uppercase tracking-widest font-bold text-brand-dark border-brand-gold">
-              Verification State
+              Estado de Verificación
             </h4>
             <div className="p-4 border border-brand-outline/2 border-dashed bg-brand-cream inline-block select-all">
-              <p className="font-mono text-[9px] text-brand-gold font-bold mb-1.5 uppercase">MINTED REGISTRY ACTIVE</p>
+              <p className="font-mono text-[9px] text-brand-gold font-bold mb-1.5 uppercase">REGISTRO ACUÑADO ACTIVO</p>
               <div className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-brand-dark text-[36px]">qr_code_2</span>
                 <div className="font-mono text-[10px]">
                   <p className="font-bold text-brand-dark">GQR-2024-V3</p>
-                  <p className="text-[9px] opacity-60 leading-none mt-0.5 uppercase">Trusted nodes active</p>
+                  <p className="text-[9px] opacity-60 leading-none mt-0.5 uppercase">Nodos de confianza activos</p>
                 </div>
               </div>
             </div>
@@ -310,9 +310,9 @@ export default function App() {
         {/* Outer bottom strip */}
         <div className="border-t border-brand-outline/10 py-6 px-6 bg-brand-surface-highest select-none">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-mono text-brand-gray uppercase tracking-wider font-semibold">
-            <p>© 2026 GUAIQUERÍ CAFÉ. VENEZUELAN HERITAGE ROASTERS. ALL RIGHTS RESERVED.</p>
+            <p>© 2026 GUAIQUERÍ CAFÉ. TOSTADORES DE HERENCIA VENEZOLANA. TODOS LOS DERECHOS RESERVADOS.</p>
             <p className="text-brand-gold flex items-center gap-1">
-              Elevating the Oriente
+              Elevando el Oriente
             </p>
           </div>
         </div>
