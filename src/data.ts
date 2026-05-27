@@ -84,64 +84,64 @@ export const BREW_TOOLS: BrewTool[] = [
   {
     id: 'comandante-c40',
     name: 'PRECISION GRINDER',
-    subtitle: 'Manual Mastery',
+    subtitle: 'Control Manual',
     price: 295.00,
-    description: 'World-renowned professional manual grinder featuring Nitro Blade steel burrs for unparalleled particle size consistency.',
+    description: 'Molino manual profesional de renombre mundial con muelas de acero Nitro Blade para una consistencia inigualable del tamaño de molienda.',
     iconName: 'Sliders',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA1nQw0qNWI_2MYwcqhBsy7YFIc13wvCQ6S7h_beGiw3_D7Sfggmj3BR9H11SJcY9fmCpVw_9EUoyZTjj3ocLrUV61sbpPwwpqcz-A1GFbPM9hOdsORvTSuMgC_mLqqxdlefyUEk8MTl_58kX3csyIzpddtxv0ASP7xa6_25n1XfIPFKwDQO0Dgih3BXoJWPp-xnbtRAUtkSZzv_IBFE9KGb0ts9SSmn7AfpXmDpRsj0X2s5uwyg2uHN_JBT3owQ1hex4NHB6YURRQ',
     ratio: 16,
     recommendedTemp: 'N/A',
     steps: [
-      { title: 'Click Setting', duration: 15, instruction: 'Configure to 24 clicks for medium pour-over, or 12 clicks for fine espresso.' },
-      { title: 'Slow Grind', duration: 45, instruction: 'Grind uniform, hand-crank strokes to avoid thermal build-up and protect organic oils.' }
+      { title: 'Ajuste de Clics', duration: 15, instruction: 'Configura a 24 clics para vertido medio, o 12 clics para espresso fino.' },
+      { title: 'Molienda Lenta', duration: 45, instruction: 'Asienta pasadas uniformes para evitar calentamiento térmico y proteger los aceites orgánicos.' }
     ]
   },
   {
     id: 'fellow-stagg',
     name: 'THERMAL KETTLE',
-    subtitle: 'Digital Accuracy',
+    subtitle: 'Precisión Digital',
     price: 180.00,
-    description: 'Precision-pour gooseneck kettle with variable speed control and high-end thermal design for flawless pour circles.',
+    description: 'Hervidor de cuello de ganso con control de flujo variable y diseño térmico de alta gama para vertidos perfectos.',
     iconName: 'Sparkles',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA1OnSBN1AntFPIJ9lapiQUqVE8cYWyk8HresawlyDtC8BMOx0nSfujhUseN7Z8rPr1cTLRRhnDGLn_Pi-4J3W8xhUU332kDGdteAWMDFlkW_k956yz3XtwoqrvIMzpTCdvuNQ9ElrbV9gJFs__DdYHxUxEH4tM9glIgZSX6bFBp0qNfOOTwCathVAjOLXMS0yxlfoD2iJsGuw5Veh05T0VrtnHDv9xhOhFxl_cLHrhBsxlsOCeFbqVu0HWHXgTPSS4pvwEqDdxnSw',
     ratio: 15,
     recommendedTemp: '94°C',
     steps: [
-      { title: 'Preheat', duration: 20, instruction: 'Rinse your paper filter with hot water from the kettle to wash out any paper taste.' },
-      { title: 'Controlled Pours', duration: 90, instruction: 'Use the counterbalanced handle to draw a thin stream at precisely 2.5g/second.' },
-      { title: 'Maintain Temp', duration: 40, instruction: 'Set the kettle back on the base between pours to hold your perfect brewing temperature.' }
+      { title: 'Precalentamiento', duration: 20, instruction: 'Enjuaga el filtro de papel con agua caliente del hervidor para eliminar cualquier sabor a papel.' },
+      { title: 'Vertidos Controlados', duration: 90, instruction: 'Usa el mango contrapesado para verter un flujo fino a exactamente 2.5g/segundo.' },
+      { title: 'Mantener Temperatura', duration: 40, instruction: 'Regresa el hervidor a la base entre vertidos para mantener tu temperatura de extracción ideal.' }
     ]
   },
   {
     id: 'acaia-pearl',
     name: 'ANALYTIC SCALE',
-    subtitle: 'Metric Precision',
+    subtitle: 'Precisión Métrica',
     price: 145.00,
-    description: 'Smart laboratory-grade scale displaying real-time flow rate, weight, and timing metrics on a crystal clear display.',
+    description: 'Báscula inteligente de grado de laboratorio que muestra el flujo de agua en tiempo real, el peso y métricas de tiempo.',
     iconName: 'CheckSquare',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB5QPHuetci2hZLTp_FawZnANt5qG7Ij7CJuUGzg48WlaqfUfxZTlCvGNu62EjECNZqJr6LRncFsVusffpavnwNmkVcnNVLf8UMU5-2dE9itJL0qG2Dt_t6HeFQhxwsi0d1d9qT6rpbkr2Puzh_9_ljxn_KbQIaxRkuQNLHvwU3K2_4xJg51-zY8j_Na2IlND4rYkn2rsAzyT6sPkw6gHMu1FT7fsj8zlPJ8oH340XKb_ybMEEHeyTGYVOP-VTVUxfV_8dQgZD4jj0',
     ratio: 15,
     recommendedTemp: 'N/A',
     steps: [
-      { title: 'Tare Vessel', duration: 10, instruction: 'Place your extraction server and dripper on the scale. Tare with dry grounds inside.' },
-      { title: 'Flow Monitoring', duration: 120, instruction: 'Ensure your flow rate remains between 1.8g/s and 2.5g/s throughout the brew.' }
+      { title: 'Tarar Recipiente', duration: 10, instruction: 'Coloca el servidor de extracción y el gotero en la báscula. Tara con el café seco adentro.' },
+      { title: 'Monitorear Flujo', duration: 120, instruction: 'Asegura que tu tasa de flujo se mantenga entre 1.8g/s y 2.5g/s durante toda la preparación.' }
     ]
   },
   {
     id: 'hario-v60',
     name: 'SOVEREIGN DRIPPER',
-    subtitle: 'Thermal Stability',
+    subtitle: 'Estabilidad Térmica',
     price: 85.00,
-    description: 'The solid copper build ensures incredible thermal stability, creating sweet, clean Extractions with high notes clarity.',
+    description: 'La construcción de cobre macizo garantiza una increíble estabilidad térmica, creando extracciones dulces y limpias con alta claridad.',
     iconName: 'Coffee',
-    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=600&h=600',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB3qrONIwY8C9705fqF_U9M_kole7lo3nHK5dTlvG13m9TPliQqLsZFaMCofzqojITpJCysuYdkIraiErVXwXR9-tVAVBNOwWA3pwbl9MLCykidMmQy9UGMo89tKM6s-vHnY0NWKoUy2K6YLhQ1NWPGhuHlDtuIi46JZzRXYOhvFFuDEhJ7EADkja-n783Vw7tpdOdVcc6OqYPXzIUGx-521pqZzlX3IgoB4ma3I8zb2oXxFyBZZ-paaROLKrnrKW1AR1b_re3kqabR',
     ratio: 16,
     recommendedTemp: '93°C',
     steps: [
-      { title: 'Bloom', duration: 45, instruction: 'Pour 50g of water. Wait 45 seconds to let the coffee bloom and release CO2.' },
-      { title: 'First Pour', duration: 60, instruction: 'Pour in concentric circles until you reach 150g. Keep the streams gentle and uniform.' },
-      { title: 'Second Pour', duration: 45, instruction: 'Pour gently in the center until you reach 250g. Let it drain through.' },
-      { title: 'Final Drawdown', duration: 30, instruction: 'Gently swirl the dripper and let the bed rest flat to complete drawdown.' }
+      { title: 'Pre-infusión (Bloom)', duration: 45, instruction: 'Vierte 50g de agua. Espera 45 segundos para dejar florecer el café y liberar CO2.' },
+      { title: 'Primer Vertido', duration: 60, instruction: 'Vierte en círculos concéntricos hasta alcanzar 150g. Mantén un flujo suave y uniforme.' },
+      { title: 'Segundo Vertido', duration: 45, instruction: 'Vierte suavemente en el centro hasta alcanzar 250g. Deja filtrar por completo.' },
+      { title: 'Filtrado Final', duration: 30, instruction: 'Mueve suavemente el gotero y deja que la cama de café se asiente plana para finalizar el goteo.' }
     ]
   }
 ];
