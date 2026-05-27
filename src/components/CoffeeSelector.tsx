@@ -40,10 +40,10 @@ export default function CoffeeSelector({ products, onAddToCart }: CoffeeSelector
         <div className="flex flex-col md:flex-row justify-between items-end mb-12">
           <div>
             <h2 className="font-serif text-4xl font-bold tracking-tight text-brand-dark mb-4">
-              The Selection
+              La Selección
             </h2>
             <p className="font-sans text-base text-brand-gray max-w-xl leading-relaxed">
-              Curated micro-lots from the Sucre and Monagas highlands, roasted to perfection for the modern connoisseur.
+              Microlotes seleccionados de las tierras altas de Sucre y Monagas, tostados a la perfección para el conocedor moderno.
             </p>
           </div>
           
@@ -57,7 +57,7 @@ export default function CoffeeSelector({ products, onAddToCart }: CoffeeSelector
                   : 'text-brand-dark/40 border-transparent hover:text-brand-dark'
               }`}
             >
-              All Origins
+              Todos los Orígenes
             </button>
             <button
               onClick={() => setSelectedCategory('single')}
@@ -67,7 +67,7 @@ export default function CoffeeSelector({ products, onAddToCart }: CoffeeSelector
                   : 'text-brand-dark/40 border-transparent hover:text-brand-dark'
               }`}
             >
-              Single Estate
+              Hacienda Única
             </button>
             <button
               onClick={() => setSelectedCategory('limited')}
@@ -77,7 +77,7 @@ export default function CoffeeSelector({ products, onAddToCart }: CoffeeSelector
                   : 'text-brand-dark/40 border-transparent hover:text-brand-dark'
               }`}
             >
-              Limited Release
+              Edición Limitada
             </button>
           </div>
         </div>
@@ -213,7 +213,7 @@ export default function CoffeeSelector({ products, onAddToCart }: CoffeeSelector
                   <div className="absolute bottom-3 left-3 right-3 glass-card p-3 border border-brand-gold/25 font-mono text-[10px] leading-relaxed flex items-center gap-3">
                     <ShieldCheck className="h-8 w-8 text-brand-gold shrink-0" />
                     <div>
-                      <p className="font-bold text-brand-dark">PROVENANCE BLOCK VERIFIED</p>
+                      <p className="font-bold text-brand-dark">BLOQUE DE PROCEDENCIA VERIFICADO</p>
                       <p className="text-brand-gray truncate">Hash: {selectedProduct.blockchainHash}</p>
                     </div>
                   </div>

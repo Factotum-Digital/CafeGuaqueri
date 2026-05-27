@@ -144,7 +144,7 @@ export default function BrewingAtelier({ onAddMessage }: BrewingAtelierProps) {
             HERRAMIENTAS EXPERTAS
           </h2>
           <p className="font-sans text-xs md:text-sm tracking-wide text-brand-cream/60 max-w-xl mx-auto leading-relaxed">
-            Precision instruments for the ultimate Venezuelan extraction.
+            Instrumentos de precisión para la mejor extracción de café de especialidad venezolano.
           </p>
         </div>
 
@@ -156,7 +156,7 @@ export default function BrewingAtelier({ onAddMessage }: BrewingAtelierProps) {
             <div className="lg:col-span-4 flex flex-col justify-between space-y-6">
               <div>
                 <span className="font-mono text-[10px] uppercase text-brand-gold font-bold tracking-widest">
-                  Active Guide
+                  Guía Activa
                 </span>
                 <h3 className="font-serif text-2xl font-bold text-white mt-1">
                   {selectedTool.name}
@@ -172,8 +172,8 @@ export default function BrewingAtelier({ onAddMessage }: BrewingAtelierProps) {
               {/* Coffee Grams Input Slider */}
               <div className="space-y-3 p-4 bg-white/5 border border-white/10">
                 <div className="flex justify-between items-center">
-                  <span className="font-sans text-xs uppercase text-brand-cream/60 tracking-wider">Dry Coffee</span>
-                  <span className="font-mono text-sm font-bold text-brand-gold">{coffeeGrams} grams</span>
+                  <span className="font-sans text-xs uppercase text-brand-cream/60 tracking-wider font-semibold">Grano de Café</span>
+                  <span className="font-mono text-sm font-bold text-brand-gold">{coffeeGrams} gramos</span>
                 </div>
                 <input 
                   type="range" 
@@ -192,12 +192,12 @@ export default function BrewingAtelier({ onAddMessage }: BrewingAtelierProps) {
                 {/* Live Extraction Ratio Display */}
                 <div className="grid grid-cols-2 gap-2 pt-2 text-[10px] font-mono border-t border-white/5">
                   <div>
-                    <span className="text-brand-cream/50 block">Target Ratio</span>
+                    <span className="text-brand-cream/50 block">Proporción</span>
                     <span className="font-bold text-white">1:{selectedTool.ratio}</span>
                   </div>
                   <div>
-                    <span className="text-brand-cream/50 block">Calculated Water</span>
-                    <span className="font-bold text-brand-gold">{calculatedWater} mL (grams)</span>
+                    <span className="text-brand-cream/50 block">Agua Calculada</span>
+                    <span className="font-bold text-brand-gold">{calculatedWater} ml (g)</span>
                   </div>
                   {selectedTool.recommendedTemp !== 'N/A' && (
                     <div className="col-span-2 pt-1">

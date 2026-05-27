@@ -40,7 +40,7 @@ const CLUB_COFFEE_SUBSCRIBABLE = [
     notes: 'Cítrico, jazmín, final mielado',
     monthly: 28,
     annual: 268,
-    badge: 'Single Origin'
+    badge: 'Origen Único'
   },
   {
     id: 'caripe-natural',
@@ -49,25 +49,25 @@ const CLUB_COFFEE_SUBSCRIBABLE = [
     notes: 'Frutas rojas, melaza, chocolate',
     monthly: 32,
     annual: 307,
-    badge: 'Single Origin'
+    badge: 'Origen Único'
   },
   {
     id: 'sovereign-roast',
     name: 'Sovereign Roast',
-    origin: 'Signature Blend',
+    origin: 'Mezcla de la Casa',
     notes: 'Caramelo dorado, macadamia, cacao',
     monthly: 24,
     annual: 230,
-    badge: 'Artisanal Blend'
+    badge: 'Mezcla Artesanal'
   },
   {
     id: 'el-morro-honey',
     name: 'El Morro Honey',
-    origin: 'Coastal Range',
+    origin: 'Cordillera de la Costa',
     notes: 'Durazno, miel silvestre, té dulce',
     monthly: 38,
     annual: 365,
-    badge: 'Ultra-Limited'
+    badge: 'Ultra-Limitada'
   }
 ];
 
@@ -81,14 +81,14 @@ export default function ElClubMembership({ customReceipts, onOpenCart, onAddMess
   const [userState, setUserState] = useState<'Sucre' | 'Monagas' | 'Caracas' | 'Lechería' | 'Nueva Esparta' | 'Miranda'>('Caracas');
   
   const [activeMember, setActiveMember] = useState<SovereignMember | null>({
-    name: 'SOVEREIGN USER',
+    name: 'USUARIO SOBERANO',
     state: 'Caracas',
     memberId: 'GQR-0812',
     mintedAt: '2026-05-26',
     blockNumber: '921,402',
     hash: '0x8f3c7ea1a600bc56b0d9990f11ac88eedaa9f001b6c77bb8bfb51aaa041ffff',
     tier: 'Ultra-Prime',
-    signature: 'ECDSA verified consensus'
+    signature: 'Consenso verificado ECDSA'
   });
   const [isMinting, setIsMinting] = useState<boolean>(false);
   const [mintSuccess, setMintSuccess] = useState<boolean>(false);
@@ -506,7 +506,7 @@ export default function ElClubMembership({ customReceipts, onOpenCart, onAddMess
                 {mintSuccess && (
                   <div className="absolute -top-3 -right-3 bg-brand-gold text-white text-[9px] uppercase font-mono font-bold px-2 py-1 rounded-sm shadow-md z-20 flex items-center gap-1 animate-bounce">
                     <Sparkles className="h-3 w-3" />
-                    Suscripción Activa / Club Minted
+                    Suscripción Activa / Club Registrado
                   </div>
                 )}
 
@@ -526,7 +526,7 @@ export default function ElClubMembership({ customReceipts, onOpenCart, onAddMess
                   {/* Body Content */}
                   <div className="mb-6">
                     <p className="font-mono text-[8px] text-brand-dark/40 uppercase tracking-widest mb-1 select-none">
-                      Sovereign Club Identity
+                      Identidad de Club Soberano
                     </p>
                     <p className="font-serif text-xl font-bold tracking-wider text-brand-dark uppercase truncate">
                       {activeMember.name}
@@ -567,7 +567,7 @@ export default function ElClubMembership({ customReceipts, onOpenCart, onAddMess
           <div className="max-w-3xl mx-auto space-y-6 text-center">
             <div className="inline-flex py-1 px-3 bg-brand-gold/10 border border-brand-gold/25 font-mono text-[10px] uppercase font-bold text-brand-gold gap-1.5 items-center mx-auto">
               <Network className="h-3 w-3" />
-              Direct-Trade Verification Protocol
+              Protocolo de Verificación de Comercio Directo
             </div>
             
             <h3 className="font-serif text-3xl font-bold text-brand-dark">
@@ -609,13 +609,13 @@ export default function ElClubMembership({ customReceipts, onOpenCart, onAddMess
                 >
                   <div className="flex flex-col md:flex-row justify-between border-b border-brand-dark/10 pb-3 gap-2">
                     <div>
-                      <span className="text-[10px] text-brand-gold block font-bold">BLOCK STATUS: VERIFIED ON-CHAIN CONSENSUS</span>
+                      <span className="text-[10px] text-brand-gold block font-bold">ESTADO DEL BLOQUE: CONSENSO ON-CHAIN VERIFICADO</span>
                       <h4 className="font-serif text-lg font-bold text-brand-dark tracking-tight mt-0.5">
                         Transacción: {queriedBlock.blockNumber} (Lote: {queriedBlock.lotId})
                       </h4>
                     </div>
                     <div className="text-left md:text-right">
-                      <span className="text-brand-dark/50 text-[10px] block">ROAST TIMESTAMP</span>
+                      <span className="text-brand-dark/50 text-[10px] block">REGISTRO DE FECHA DE TUESTE</span>
                       <p className="font-bold text-brand-dark">{queriedBlock.roastDate}</p>
                     </div>
                   </div>

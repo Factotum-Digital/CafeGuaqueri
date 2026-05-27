@@ -64,13 +64,13 @@ export default function ShoppingCart({
     const blockReceipt = {
       blockNumber: txId,
       lotId: items[0]?.product?.id?.toUpperCase()?.substring(0, 6) || 'SOV-MX',
-      originState: items[0]?.product?.origin || 'Venezuela Oriente',
-      farmerName: items[0]?.product?.farmer || 'Pacto Productores',
+      originState: items[0]?.product?.origin || 'Oriente de Venezuela',
+      farmerName: items[0]?.product?.farmer || 'Pacto de Productores',
       altitude: items[0]?.product?.altitude || '1,400m',
-      fairTradePremium: '+35% Direct Payout (Direct To Farmer)',
+      fairTradePremium: '+35% Pago Directo al Productor',
       roastDate: new Date().toISOString().split('T')[0],
       moistureLevel: '10.8%',
-      qualityScore: '87.5 SCAA pts',
+      qualityScore: '87.5 ptos SCAA',
       hash: hashStr
     };
 
@@ -380,7 +380,7 @@ export default function ShoppingCart({
                   onClick={() => setCheckoutStep('cart')}
                   className="border border-brand-dark font-sans text-xs tracking-widest uppercase font-semibold py-3 transition-colors hover:bg-brand-dark hover:text-white"
                 >
-                  Volver Cuna
+                  Volver al Carrito
                 </button>
                 <button
                   type="submit"
@@ -407,17 +407,17 @@ export default function ShoppingCart({
               {/* Cryptographic Block Print */}
               <div className="w-full p-4 border-2 border-dashed border-brand-gold/30 bg-brand-surface-card text-left font-mono text-[11px] space-y-1.5 select-all">
                 <div className="flex justify-between">
-                  <span className="text-brand-gold font-bold uppercase">BLOCK MINTED ID</span>
+                  <span className="text-brand-gold font-bold uppercase">ID DEL BLOQUE GENERADO</span>
                   <span className="font-bold">{finalReceipt.blockNumber}</span>
                 </div>
                 <div className="h-[1px] bg-brand-outline/20 my-1" />
-                <p><span className="text-brand-gray">LOT ID:</span> {finalReceipt.lotId}</p>
-                <p><span className="text-brand-gray">FARMER:</span> {finalReceipt.farmerName}</p>
-                <p><span className="text-brand-gray">TOWN:</span> {finalReceipt.originState}</p>
-                <p><span className="text-brand-gray">MINT HASH:</span></p>
+                <p><span className="text-brand-gray">ID DE LOTE:</span> {finalReceipt.lotId}</p>
+                <p><span className="text-brand-gray">PRODUCTOR:</span> {finalReceipt.farmerName}</p>
+                <p><span className="text-brand-gray">ORIGEN:</span> {finalReceipt.originState}</p>
+                <p><span className="text-brand-gray">HASH DE EMISIÓN:</span></p>
                 <p className="break-all text-[10px] opacity-75">{finalReceipt.hash}</p>
                 <div className="p-1 px-2 bg-emerald-100 text-emerald-800 text-[10px] text-center font-bold font-sans uppercase">
-                  ✓ VERIFY STATUS ON CLUB PAGE
+                  ✓ VERIFICAR ESTADO EN LA PÁGINA DEL CLUB
                 </div>
               </div>
 

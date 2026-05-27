@@ -132,17 +132,17 @@ export default function App() {
 
         {/* Vertical Rail Text Left (Kyoto Space-Void design blueprint look) */}
         <div className="absolute left-6 bottom-24 hidden xl:block rotate-180 [writing-mode:vertical-rl] text-[8px] uppercase tracking-[0.4em] font-mono text-white/50 border-r border-white/20 pr-4 z-10 select-none">
-          Redefining Coffee Provenance with Sovereign Integrity
+          Redefiniendo la Procedencia del Café con Integridad Soberana
         </div>
 
         {/* Vertical Rail Text Right (Kyoto Space-Void design blueprint look) */}
         <div className="absolute right-6 top-24 hidden xl:block [writing-mode:vertical-rl] text-[8px] uppercase tracking-[0.4em] font-mono text-white/50 border-l border-white/20 pl-4 z-10 select-none">
-          Cultivado en Caripe y Turimiquire / Issue 08
+          Cultivado en Caripe y Turimiquire / Edición 08
         </div>
 
         <div className="relative z-10 text-center text-white px-6 max-w-4xl select-none">
           <span className="text-[10px] uppercase tracking-[0.4em] mb-4 text-brand-gold-light font-bold block">
-            Featured Heritage Origin
+            Origen Patrimonial Destacado
           </span>
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
@@ -171,7 +171,7 @@ export default function App() {
               href="#shop"
               className="bg-brand-dark text-brand-cream border border-brand-outline/20 px-10 py-4 font-sans text-xs tracking-widest uppercase hover-letter-spacing hover:bg-brand-gold hover:text-white active:scale-95 transition-all duration-300 inline-block font-bold"
             >
-              Explore the Harvest
+              Explorar la Cosecha
             </a>
           </motion.div>
         </div>

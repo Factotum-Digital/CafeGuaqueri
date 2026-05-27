@@ -26,10 +26,10 @@ export default function TopNavBar({
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', id: 'home' },
-    { name: 'Shop', id: 'shop' },
-    { name: 'Equipment', id: 'equipment' },
-    { name: 'Our Story', id: 'story' },
+    { name: 'Inicio', id: 'home' },
+    { name: 'Cafés', id: 'shop' },
+    { name: 'Métodos', id: 'equipment' },
+    { name: 'Historia', id: 'story' },
     { name: 'Club', id: 'club' },
   ];
 
@@ -76,7 +76,7 @@ export default function TopNavBar({
         {/* Issue designation and Utility Toolbar */}
         <div className="flex items-center gap-6">
           <span className="hidden lg:inline font-sans text-[9px] uppercase tracking-[0.2em] text-brand-dark/40 font-semibold border-r border-brand-dark/10 pr-6">
-            Issue 08 / 2026
+            Edición 08 / 2026
           </span>
 
           <div className="flex items-center gap-4">

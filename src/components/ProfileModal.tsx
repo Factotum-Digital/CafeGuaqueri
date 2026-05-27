@@ -58,7 +58,7 @@ export default function ProfileModal({ isOpen, onClose, userEmail = 'Wilfredy7@g
             </h3>
             <div className="flex items-center gap-1.5 mt-1">
               <span className="inline-block w-2 h-2 bg-emerald-600 rounded-full" />
-              <span className="font-mono text-[9px] text-brand-gray tracking-wider">SOVEREIGN NODE ACCOUNT</span>
+              <span className="font-mono text-[9px] text-brand-gray tracking-wider">CUENTA DE NODO SOBERANO</span>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function ProfileModal({ isOpen, onClose, userEmail = 'Wilfredy7@g
           </div>
 
           <div>
-            <label className="block text-[9px] uppercase font-mono font-bold text-brand-gray mb-1">Mnemonic Wallet Public Key</label>
+            <label className="block text-[9px] uppercase font-mono font-bold text-brand-gray mb-1">Clave Pública de Cartera Nemónica</label>
             <div className="flex justify-between items-center p-2 bg-brand-surface-card border border-brand-outline/15 font-mono text-[10px] text-brand-dark min-w-0">
               <span className="truncate select-all mr-2">0xabc8129033f11ac88eedaa9f001b6c77bb8bfb51aaa</span>
               <button 
